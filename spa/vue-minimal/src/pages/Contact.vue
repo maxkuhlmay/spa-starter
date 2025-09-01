@@ -1,6 +1,6 @@
 <template>
   <div class="Contact">
-    <h2 class="hint">[Contact Page]</h2>
+    <h2 class="hint">[Contact.vue]</h2>
     <div class="box">
       <h1>{{ title || 'Nulla vitae elit libero, a pharetra augue.' }}</h1>
     </div>

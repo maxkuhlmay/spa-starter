@@ -1,6 +1,6 @@
 <template>
   <div class="Basic">
-    <div class="hint">[Basic Page]</div>
+    <div class="hint">[Basic.vue]</div>
     <h1>{{ title || metadata['@name'] }}</h1>
 
     <main>

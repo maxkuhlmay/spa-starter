@@ -1,0 +1,15 @@
+$type: jcrDeliveryEndpoint_v2
+workspace: tours
+depth: 10
+includeSystemProperties: true
+nodeTypes:
+  - mgnl:content
+
+references:
+  - name: assetReference
+    propertyName: image
+    referenceResolver:
+      class: info.magnolia.rest.reference.dam.AssetReferenceResolverDefinition
+      assetRenditions:
+        - 960x720
+        - 480x360
